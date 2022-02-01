@@ -33,6 +33,7 @@ function App() {
       </h1>
       <div className='bottom'>
         {/* here, the CityNameInput component takes in the setCityName state handler function */}
+        <CityNameInput />
         <section className='dropdowns'>
           {/* 
           render all three Dropdown components (WaterfrontDropdown, SkylineDropdown, CastleDropdown) here. 
@@ -41,7 +42,9 @@ function App() {
           */}
         </section>
         {/* here, the SloganForm component takes in the setSlogans state handler function and the slogans array that live in state */}
+        {/* <SloganForm /> */}
         {/* here, the SloganList component takes the array of slogans that lives in state */}
+        {/* <SloganList /> */}
 
       </div>
     </div>
