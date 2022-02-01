@@ -22,9 +22,14 @@ function App() {
   return (
     <div className="App">
       {/* here, the City component takes in skylineId, waterfrontId, castleId as props. It'll use those ids to render pictures correctly. */}
+      <City 
+        skylineId={skylineId} 
+        waterfrontId={waterfrontId} 
+        castleId={castleId} />
+
       <h1>
         {/* dynamically update the city name here using state */}
-        Welcome to beautiful Portland!
+        Welcome to beautiful {cityName} !
       </h1>
       <div className='bottom'>
         {/* here, the CityNameInput component takes in the setCityName state handler function */}
